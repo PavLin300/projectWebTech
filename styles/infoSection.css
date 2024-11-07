@@ -1,0 +1,51 @@
+.infoSection {
+	background: #f8f8f8;
+	padding: 110px;
+	position: relative;
+}
+
+.infoSectionWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.infoSectionText {
+	width: 40%;
+	line-height: 1.4;
+}
+
+.infoSectionText h1 {
+	color: #282828;
+	margin-bottom: 30px;
+	font-size: 36px;
+}
+
+.readMore {
+	margin-top: 15px;
+}
+
+.readMore a {
+	color: #0039dd;
+}
+
+.infoSection .vector1 {
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	z-index: 0;
+}
+
+.infoSection .vector2 {
+	position: absolute;
+	top: 25%;
+	left: 41%;
+	z-index: 0;
+}
+
+.infoSection .vector3 {
+	position: absolute;
+	top: 62%;
+	left: 38%;
+	z-index: 0;
+}

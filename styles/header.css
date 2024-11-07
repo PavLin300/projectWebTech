@@ -1,0 +1,96 @@
+/* header */
+
+header {
+	padding: 30px 125px;
+	background: #f8f8f8;
+}
+
+/* navigation */
+.headerNavigation ul {
+	list-style-type: none;
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.headerNavigation a {
+	color: #282828;
+}
+
+.headerContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.signInButton {
+	background: #3c6bff;
+	color: #eeeeee;
+	padding: 13px 48px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.signInButton:hover {
+	transform: scale(1.1);
+	background: #0e35b6;
+}
+
+.mobileMenuIcon svg {
+	display: none;
+	cursor: pointer;
+}
+
+.mobilePopOut {
+	display: none;
+}
+
+/* mainBlockHeader */
+
+.mainBlock {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 110px;
+	align-items: center;
+	gap: 30px;
+	position: relative;
+}
+
+.whatsNew {
+	color: #0039dd;
+	font-size: 12px;
+}
+
+.mainBlockText h1 {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	color: #282828;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.mainBlockText {
+	line-height: 1.4;
+}
+
+header .vector1 {
+	position: absolute;
+	top: 30%;
+	right: 37%;
+	z-index: 0;
+}
+
+header .vector2 {
+	position: absolute;
+	top: 30%;
+	right: 0;
+	z-index: 0;
+}
+
+header .vector3 {
+	position: absolute;
+	top: 64%;
+	right: 21%;
+	z-index: 0;
+}

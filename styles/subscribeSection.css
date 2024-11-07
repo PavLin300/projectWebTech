@@ -1,0 +1,62 @@
+.subscribeSection {
+	background: #f8f8f8;
+	padding: 0 110px 110px 110px;
+}
+
+.subscribeSectionWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.emailSection {
+	width: 30%;
+}
+.emailSection p {
+	font-weight: bolder;
+	margin-bottom: 15px;
+	line-height: 1.4;
+}
+
+.emailForm {
+	display: flex;
+	align-items: center;
+	border: 1px solid #a09e9e;
+	border-radius: 30px;
+	overflow: hidden;
+	max-width: 345px;
+}
+
+.subscribeSectionInput {
+	border: none;
+	padding: 10px 15px;
+	outline: none;
+	font-size: 16px;
+	width: 70%;
+}
+
+.subscribeSectionButton {
+	background-color: #252525;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.subscribeSectionButton:hover {
+	background-color: #555;
+}
+
+.subscribeSectionText {
+	width: 30%;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.subscribeSectionText img {
+	display: block;
+	margin-top: 30px;
+	float: right;
+}

@@ -1,0 +1,37 @@
+/* general */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.orangeButton {
+	display: block;
+	background: #ff9900;
+	color: #f8f8f8;
+	border-radius: 25px;
+	padding: 13px 0;
+	width: 174px;
+	border: none;
+	cursor: pointer;
+	z-index: 99;
+	position: relative;
+	transition: 0.2s;
+}
+
+.orangeButton:hover {
+	transform: scale(1.1);
+	background: #cf7d00;
+}
+
+a {
+	text-decoration: none;
+}

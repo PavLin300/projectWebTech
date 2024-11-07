@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+	/*general*/
+	.container {
+		max-width: 600px;
+	}
+
+	.vector1,
+	.vector2,
+	.vector3 {
+		display: none;
+	}
+
+	.orangeButton {
+		width: 150px;
+	}
+
+	/*header*/
+
+	.mainBlock {
+		flex-direction: column;
+	}
+
+	/*productSection*/
+
+	.productSection {
+		padding: 30px;
+	}
+	.prodcutSetionTitle {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	.cardContainer {
+		justify-content: center;
+	}
+	.productCard {
+		width: 80%;
+	}
+
+	/*infoSection*/
+
+	.infoSection {
+		padding: 30px;
+	}
+
+	.infoSectionWrapper {
+		flex-direction: column-reverse;
+		gap: 30px;
+	}
+
+	.infoSectionText {
+		width: 100%;
+	}
+
+	/*subscribeSection*/
+	.subscribeSection {
+		padding: 60px 30px;
+	}
+	.subscribeSectionButton {
+		padding: 10px 15px;
+	}
+
+	/*footer*/
+	footer {
+		padding: 30px;
+	}
+}
